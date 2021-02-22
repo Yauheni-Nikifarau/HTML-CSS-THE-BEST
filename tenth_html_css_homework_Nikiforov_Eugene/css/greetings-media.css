@@ -1,0 +1,25 @@
+@media screen and (max-width: 1150px) {
+    .greetings {
+        font-size: 30px;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .greetings .container {
+        display: block;
+    }
+
+    .greetings-credo {
+        width: 155px;
+        margin: 20px 0 0 auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .greetings {
+        font-size: 20px;
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+}

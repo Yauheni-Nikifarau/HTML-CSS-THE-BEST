@@ -1,0 +1,72 @@
+.contact-us {
+    padding: 110px 0;
+    background-color: #000;
+    background-image: url(../img/formbg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: #a2a2a2;
+    text-align: center;
+}
+
+.contact-us-header {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.contact-us-text {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 80px;
+}
+
+.contact-us_form {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template: repeat(3, 50px)/1fr 1fr;
+    gap: 30px;  
+    margin-bottom: 30px;
+}
+
+.contact-us_small-input {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.contact-us_small-input:focus {
+    outline: none;
+}
+
+.contact-us_big-input {
+    padding: 20px;
+    grid-row: 1/span 3;
+    resize: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact-us_big-input:focus {
+    outline: none;
+}
+
+.contact-us_button {
+    padding: 25px 45px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #fed136;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.contact-us_button:focus {
+    outline: none;
+}
+
+.contact-us_button:hover {
+    cursor: pointer;
+}

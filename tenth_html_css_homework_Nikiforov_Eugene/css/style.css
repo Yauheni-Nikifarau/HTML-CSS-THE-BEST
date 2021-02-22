@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.site {
+    font-family: 'Mulish', sans-serif;
+    min-width: 320px;
+    background-color: #f2f2f2;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+

@@ -1,0 +1,51 @@
+.services .container {
+    display: flex;
+    padding: 30px 0 80px;
+    border-bottom: 1px solid #eee;
+}
+
+.services-item {
+    width: 300px;
+    font-size: 16px;
+}
+
+.services-item:not(:last-child) {
+    margin-right: 100px;
+}
+
+.item-img {
+    width: 300px;
+    height: 145px;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 30px;
+}
+
+.item-title {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.item-description {
+    margin-bottom: 40px;
+}
+
+.item-order {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 19px 45px;
+    border-radius: 4px;
+}
+
+.red .item-order {
+    background-color: #fb565a;
+}
+
+.green .item-order {
+    background-color: #00ca74;
+}
+
+.yellow .item-order {
+    background-color: #efc84a;
+}

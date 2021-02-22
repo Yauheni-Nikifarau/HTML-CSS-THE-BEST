@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    max-width: 980px;
+    margin: 0 auto;
+    min-width: 256px;
+}
+
+.site {
+    font-family: Montserrat;
+    min-width: 320px;
+}

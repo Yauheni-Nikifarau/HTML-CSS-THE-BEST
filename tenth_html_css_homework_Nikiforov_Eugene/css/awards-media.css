@@ -1,0 +1,31 @@
+@media screen and (max-width: 940px) {
+    .awards-block {
+        grid-template: repeat(3, 1fr)/2fr 1fr 1fr;
+        gap: 40px 70px;
+    }
+
+    .awards-block-header {
+        grid-column: 1/span 3;
+        grid-row: 1/1;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .awards-block {
+        gap: 10px 10px;
+    }
+
+    .awards-block-header {
+        font-size: 22px;
+    }
+    
+    .awards-block-description, .awards-block-year {
+        font-size: 10px;
+    } 
+    
+    .awards-block-award {
+        font-size: 14px;
+    }
+
+}

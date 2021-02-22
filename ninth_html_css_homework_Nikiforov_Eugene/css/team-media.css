@@ -1,0 +1,48 @@
+@media screen and (max-width: 1010px) {
+    .team-text {
+        margin-bottom: 40px;
+    }
+    
+    .team-members {
+        flex-wrap: wrap;
+    }
+
+    .team-members_person {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 968px) {
+
+    .team-members {
+        justify-content: center;
+    }
+
+    .team-members_person:not(:last-child), .team-members_person:last-child {
+        margin: 20px 40px;
+    }
+
+    
+}
+
+@media screen and (max-width: 680px) {
+
+    .team-members {
+        flex-direction: column;
+    }
+
+    .team-members_person:not(:last-child), .team-members_person:last-child {
+        margin: 20px 0;
+    }
+
+    
+}
+
+@media screen and (max-width: 560px) {
+
+    .team-header {
+        font-size: 30px;
+    }
+
+    
+}

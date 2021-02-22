@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+    .header-footer {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    footer.header-footer .container {
+        flex-direction: column;
+    }
+
+    footer.header-footer .navigation {
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header-footer .container {
+        flex-direction: column;
+    }
+    
+    .navigation {
+        margin-top: 15px;
+    }
+}

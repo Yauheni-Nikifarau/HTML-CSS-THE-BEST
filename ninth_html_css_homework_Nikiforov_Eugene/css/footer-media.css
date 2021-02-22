@@ -1,0 +1,34 @@
+@media screen and (max-width: 970px) {
+    .footer .container {
+        justify-content: center;
+    }
+    
+    .footer-socials {
+        margin-left: 40px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer .container {
+        display: block;
+        text-align: center;
+    }
+    
+    .footer-socials {
+        margin: 0;
+    }
+
+    .footer-copyrights {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #747474;
+    }
+}
+
+@media screen and (max-width: 360px) {
+   
+    .footer-copyrights {
+        font-size: 10px;
+    }
+}

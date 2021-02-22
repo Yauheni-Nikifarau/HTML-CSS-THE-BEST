@@ -1,0 +1,13 @@
+@media (max-width: 1150px) {
+    .portfolio-works {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .portfolio-example {
+        padding-top: 50px;
+        width: 291px;
+        margin: 0 5%;
+    }
+}

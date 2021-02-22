@@ -1,0 +1,16 @@
+@media screen and (max-width: 1010px) {
+    .clients .container {
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+
+    .client-logo {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .clients .container {
+        flex-direction: column;
+    }
+}

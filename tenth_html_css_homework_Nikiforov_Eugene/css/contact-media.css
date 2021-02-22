@@ -1,0 +1,40 @@
+@media screen and (max-width: 1030px) {
+    .contact-us-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-us-text {
+        width: 100%;
+    }
+
+    .contact-us-form {
+        width: 100%;
+    }
+
+    .contact-us-map {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact {
+        padding: 10px 0;
+        font-size: 30px;
+    }
+
+    .contact-us-map {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact {
+        padding: 5px 0;
+        font-size: 20px;
+    }
+
+    .contact-us-map {
+        margin-top: 20px;
+    }
+}

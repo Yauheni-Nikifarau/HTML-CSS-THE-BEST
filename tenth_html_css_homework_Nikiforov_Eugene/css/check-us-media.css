@@ -1,0 +1,24 @@
+@media screen and (max-width: 990px) {
+    .check-us .container {
+        display: block;
+        text-align: center;
+    }
+
+    .check-us-nav {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .check-us-link {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .check-us-text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

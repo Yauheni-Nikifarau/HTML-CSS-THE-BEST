@@ -1,0 +1,19 @@
+@media screen and (max-width: 800px) {
+    .map-wrapper {
+        position: static;
+    }
+
+    .address {
+        padding: 10px;
+        background-color: inherit;
+        width: 320px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .address {
+        width: 100%;
+    }
+}

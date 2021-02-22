@@ -1,0 +1,93 @@
+.promo-slider {
+    background-color: #eee;
+}
+
+.promo-slider .container {
+    position: relative;
+    
+}
+
+.slide {
+    display: flex;
+}
+
+
+.slide-img {
+    width: 60%;
+}
+
+.slide-text {
+    padding-top: 60px;
+    width: 380px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 50px;
+}
+
+.promo-text-title {
+    font-size: 3.4em;
+    margin-bottom: 30px;
+}
+
+.promo-text-text {
+    font-weight: 400;
+    margin-bottom: 35px;
+    line-height: 1.5em;
+}
+
+.promo-text-link {
+    display: inline-block;
+    padding: 20px 60px;
+    background-color: #fb565a;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.radio-input {
+    display: none;
+}
+
+.slider-dot {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-dot {
+    transform: translateX(calc(-50% - 35px));
+}
+
+.right-dot {
+    transform: translateX(calc(-50% + 35px));
+}
+
+.slider-dot::before {
+    content: "";
+    display: none;
+    width: 2px;
+    height: 2px;
+    border: 3px solid #c1c1c1;
+    border-radius: 50%;
+}
+
+#slide1:checked ~ .slide1::before {
+    display: block;
+}
+
+#slide2:checked ~ .slide2::before {
+    display: block;
+}
+
+#slide3:checked ~ .slide3::before {
+    display: block;
+}
+

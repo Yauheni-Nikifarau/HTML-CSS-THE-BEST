@@ -1,0 +1,44 @@
+.greetings {
+    padding: 35px 0 144px;
+    font-size: 40px;
+}
+
+.greetings .container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.greetings-header {
+    font-size: 0.5em;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+
+.greetings-hello {
+    line-height: 1.5em;
+    font-weight: bold;
+    max-width: 635px;
+}
+
+.greetings .greetings-blue {
+    color: #4A4FF2;
+}
+
+
+.greetings-credo {
+    margin-left: 190px;
+}
+
+.credo-line {
+    display: block;
+    width: 30px;
+    border-bottom: 2px solid #111;
+    margin-bottom: 9px;
+}
+
+.credo-text {
+    font-style: italic;
+    font-size: 0.45em;
+    color: #111;
+}

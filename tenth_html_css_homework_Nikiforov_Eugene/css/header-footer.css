@@ -1,0 +1,58 @@
+.header-footer {
+    padding: 61px 0;
+}
+
+.header-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-link {
+    display: inline-block;
+    padding: 15px;
+    color: #111;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer.header-footer .container {
+    justify-content: flex-start;
+}
+
+footer.header-footer .navigation {
+    margin-left: auto;
+    margin-right: 95px;
+}
+
+.footer-socials {
+    width: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-ico {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.basket {
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/basket.png);
+}
+
+.instagram {
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/instagram.png);
+}
+
+.twitter {
+    width: 18px;
+    height: 14px;
+    background-image: url(../img/twitter.png);
+}
+

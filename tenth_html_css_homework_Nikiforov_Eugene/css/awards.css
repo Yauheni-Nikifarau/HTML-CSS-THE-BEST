@@ -1,0 +1,33 @@
+.awards-block {
+    padding: 55px 0;
+    display: grid;
+    grid-template: repeat(2, 1fr)/2fr 1fr 1fr 1fr;
+    gap: 80px 120px;
+    border-top: 2px solid #D8D8D8;
+    border-bottom: 2px solid #D8D8D8;
+}
+
+.awards-block-header {
+    grid-row: 1/span 2;
+    font-size: 22px;
+}
+
+.awards-block-header, .awards-block-award, .description-header, .awards-block-year {
+    font-weight: bold;
+}
+
+.awards-block-description, .awards-block-year {
+    font-size: 16px;
+} 
+
+.awards-block-award {
+    font-size: 18px;
+}
+
+.description-header {
+    margin-bottom: 12px;
+}
+
+.awards-block-year {
+    text-align: right;
+}

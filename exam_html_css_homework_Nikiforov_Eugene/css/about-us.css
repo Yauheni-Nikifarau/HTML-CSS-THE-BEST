@@ -1,0 +1,83 @@
+
+
+.about-us .container {
+    padding: 40px 0 70px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+}
+
+.about-us-text {
+    padding-top: 40px;
+    width: 600px;
+}
+
+
+.about-us-section-title {
+    font-size: 2.9em;
+    margin-bottom: 30px;
+}
+
+.about-us-credo {
+    margin-bottom: 50px;
+}
+
+.about-us-list-title {
+    text-transform: uppercase;
+}
+
+.about-us-list-item {
+    margin-top: 20px;
+    padding-left: 37px;
+    position: relative;
+}
+
+.about-us-list-item::before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #fb565a;
+    position: absolute;
+    left: 2px;
+    bottom: 8px;
+}
+
+
+
+.about-us-datas {
+    width: 360px;
+}
+
+.datas-img {
+    height: 210px;
+    width: 100%;
+    object-position: center;
+    object-fit: contain;
+    margin-bottom: 40px;
+}
+
+.datas-slogan {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.datas-numbers {
+    display: flex;
+}
+
+.numbers-item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.number {
+    font-size: 2.9em;
+    font-weight: 700;
+}
+
+.number-percentage {
+    vertical-align: super;
+    font-size: 0.5em;
+}

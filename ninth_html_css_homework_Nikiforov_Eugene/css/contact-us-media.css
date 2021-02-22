@@ -1,0 +1,19 @@
+@media screen and (max-width: 920px) {
+    .contact-us_form {
+        grid-template: repeat(6, 50px)/1fr;
+    }
+
+    .contact-us_big-input {
+        grid-row: 4/span 3;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .contact-us-header {
+        font-size: 30px;
+    }
+
+    .contact-us-text {
+        font-size: 14px;
+    }
+}

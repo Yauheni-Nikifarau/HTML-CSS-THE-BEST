@@ -1,0 +1,112 @@
+.team {
+    background-color: #f9f9f9;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.team p {
+    color: #a2a2a2;
+}
+
+.team-header {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.team-text {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 80px;
+}
+
+.person-photo {
+    border-radius: 50%;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.person-photo {
+    margin-bottom: 25px;
+}
+
+
+
+.person-name {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.team-members_person:not(:last-child) {
+    margin-right: 50px;
+}
+
+.team-members_person .person-name {
+    color: #000;
+}
+
+.person-socials {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-ico {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-decoration: none;
+}
+
+.social-ico:not(:first-child) {
+    margin-left: 10px;
+}
+
+.twitter {
+    background-image: url(../img/twitter.png);
+}
+
+.facebook {
+    background-image: url(../img/facebook.png);
+}
+
+.gplus {
+    background-image: url(../img/google.png);
+}
+
+.pinterest {
+    background-image: url(../img/pinterest.png);
+}
+
+.twitter:hover {
+    background-image: url(../img/twitterhover.png);
+    background-color: #00aced;
+    border-color: #00aced;
+}
+
+.facebook:hover {
+    background-image: url(../img/facebookhover.png);
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+
+.gplus:hover {
+    background-image: url(../img/googlehover.png);
+    background-color: #d95232;
+    border-color: #d95232;
+}
+
+.pinterest:hover {
+    background-image: url(../img/pinteresthover.png);
+    background-color: #cb2028;
+    border-color: #cb2028;
+}
+

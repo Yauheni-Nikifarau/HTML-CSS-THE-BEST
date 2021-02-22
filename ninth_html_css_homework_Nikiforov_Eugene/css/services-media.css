@@ -1,0 +1,9 @@
+@media (max-width: 1250px) {
+    .services-list {
+        display: block;
+    }
+
+    .services-item:not(:last-child) {
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,13 @@
+.photos .container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 1990px;
+    width: 1110px;
+}
+
+.photos-item {
+    margin-bottom: 30px;
+}
+

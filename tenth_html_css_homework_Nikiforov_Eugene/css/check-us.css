@@ -1,0 +1,33 @@
+.check-us .container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.check-us-text {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.check-us-nav {
+    display: flex;
+    margin-left: 91px;
+}
+
+.check-us-nav-block {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.check-us-nav-block:first-child {
+    margin-right: 70px;
+}
+
+.check-us-link {
+    display: block;
+    font-size: 18px;
+    color: #111;
+}
